@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Corporate Web</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact.css">
+  </head>
+    
+  <body>
+     <div id="wrapper">
+       <div id="header">
+         <!-- Start Header -->
+          <div class="container">
+            <div id="header_left">
+              <!-- Start Header Left -->
+                <img src="images/logo.png">
+              <!-- End Header Left -->
+            </div>
+            <div id="header_right">
+              <!-- Start Header Right -->
+                 <ul>
+                   <li><a href="index.html" id="itemhome">Home</a></li>
+                   <li><a href="#" id="itemnews">News</a></li>
+                   <li><a href="#" id="itemgallery">Gallery</a></li>
+                   <li><a href="#" id="itemcontact">Contact</a></li>
+                 </ul>
+              <!-- End Header Right -->
+            </div>
+          </div>
+         <!-- End Header -->
+       </div>
+       
+       <div id="content">
+         <!-- Start Content -->
+           <div class="container">
+             <div id="contact_left">
+                <!-- Start Contact Left -->
+                   <h2 class="thetitle">Welcome,Dear Visitor</h2>
+                   <form id="form_contact" method="post" action="">
+                    <table cellspacing="20">
+                        <tr>
+                          <td>Fullname</td>
+                          <td>:</td>
+                          <td>
+                              <input type="text" id="fullname" name="fullname"
+                              placeholder="please fill fullname" value="" required autocomplete="">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Username</td>
+                          <td>:</td>
+                          <td>
+                              <input type="text" id="username" name="fullname"
+                              placeholder="please fill username" value="">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Password</td>
+                          <td>:</td>
+                          <td>                              
+                              <input type="password" id="password" name="password"
+                              placeholder="please fill password" value="">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Email</td>
+                          <td>:</td>
+                          <td>                              
+                              <input type="email" id="useremail" name="useremail"
+                              placeholder="please fill Email" value="">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Gender</td>
+                          <td>:</td>
+                          <td>                              
+                              <input type="radio" id="gendermale" name="gender"
+                              value="male" checked>
+                              &nbsp;Male
+                              &nbsp;&nbsp;&nbsp;&nbsp;
+                              <input type="radio" id="genderfemale" name="gender"
+                              value="female">
+                              &nbsp;Female
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Birthdate</td>
+                          <td>:</td>
+                          <td>
+                          <input type="date" id="birthdate" name="birthdate">     
+                          <!--                         
+                        <select id="day" name="day">
+                          <option value="">--Day--</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                        </select>
+                        &nbsp;&nbsp;
+                        <select id="month" name="month">
+                          <option value="">--Month--</option>
+                          <option value="1">January</option>
+                          <option value="2">February</option>
+                          <option value="3">March</option>
+                          <option value="4">April</option>
+                          <option value="5">May</option>
+                        </select>
+                      &nbsp;&nbsp;
+                        <select id="year" name="year">
+                          <option value="">--Year--</option>
+                          <option value="1994">1994</option>
+                          <option value="1995">1995</option>
+                          <option value="1996">1996</option>
+                          <option value="1997">1997</option>
+                          <option value="1998">1998</option>
+                        </select>-->
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Hobby</td>
+                          <td>:</td>
+                          <td>
+                          <input type="checkbox" id="sports" name="sports"
+                            value="sports">&nbsp;Sports
+                            &nbsp;&nbsp;
+                          <input type="checkbox" id="travel" name="travel"
+                            value="travel">&nbsp;Travel
+                            &nbsp;&nbsp;
+                          <input type="checkbox" id="culture" name="culture"
+                            value="culture">&nbsp;Culture
+                            <br>
+                            <input type="checkbox" id="Cullinary" name="Cullinary"
+                            value="Cullinary">&nbsp;Cullinary
+                            &nbsp;&nbsp;
+                          <input type="checkbox" id="Shopping" name="Shopping"
+                            value="Shopping">&nbsp;Shopping
+                            &nbsp;&nbsp;
+                          <input type="checkbox" id="Praying" name="Praying"
+                            value="Praying">&nbsp;Praying
+                            &nbsp;&nbsp;
+                          </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Color Fav</td>
+                            <td valign="top">:</td>
+                            <td>
+                              <input type="color" id="yourcolor" 
+                              name="yourcolor" value="000000">
+                              
+                            </td>
+                            </tr>
+                        <tr>
+                        <td valign="top">Photo</td>
+                        <td valign="top">:</td>
+                        <td>
+                          <input type="file" id="photo" name="photo">
+                          <input type="hidden" id="oldphoto" name="oldphoto">
+                        </td>
+                        </tr>
+                        <tr>
+                        <td valign="top">Message</td>
+                        <td valign="top">:</td>
+                        <td>
+                          <textarea id="message" name="message" ></textarea>
+
+                        </td>
+                        </tr>
+                      </tr>
+                          <td></td>
+                          <td></td>
+                          <td>
+                            <input type="submit" id="submit" name="submit"
+                            value="Submit">
+                            &nbsp;&nbsp;
+                            <input type="reset" id="reset" name="reset"
+                            value="Reset">
+                          </td>
+                      </tr>
+                    </table>
+                      
+
+
+
+                   </form>
+                <!-- End Contact Left -->
+             </div>
+             <div id="contact_right">
+                <!-- Start Contact Right -->
+                <h2 class="thetitle">Our Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.325220794991!2d106.78307099999999!3d-6.220776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6cd0000003d%3A0x1f5fa010fece9b0b!2sKampus%20Babastudio%20Permata%20Hijau!5e0!3m2!1sid!2sid!4v1575681845781!5m2!1sid!2sid" width="380" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                
+                <!-- End Contact Right -->
+             </div>
+           </div>
+         <!-- End Content -->
+       </div>
+       <div id="footer">
+         <!-- Start Footer -->
+         <div class="container">
+           CopyRights &copy; 2018 babastudio.com 
+         </div>
+         <!-- End Footer -->
+       </div>
+     </div>
+  </body>
+</html>
